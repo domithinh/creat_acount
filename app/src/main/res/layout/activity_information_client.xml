@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper2"
+    tools:context=".information_client">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="192dp"
+
+        android:fontFamily="sans-serif"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:hint="đã đăng ký thành công"
+        android:textColor="@color/purple_200"
+        android:textColorHint="@color/purple_200"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+
+        android:fontFamily="@font/alfa_slab_one"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:hint="CHÚC MỪNG BẠN"
+        android:textColor="@color/purple_200"
+        android:textColorHint="@color/purple_200"
+        android:textSize="22sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_accountname"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="128dp"
+        android:background="@drawable/custombutton2"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:textColorHint="#673AB7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_accountid"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/custombutton2"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:textColorHint="#673AB7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_mkhau"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="412dp"
+        android:background="@drawable/custombutton2"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:textColorHint="#673AB7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_sdemail"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="540dp"
+        android:background="@drawable/custombutton2"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:textColorHint="#673AB7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="244dp"
+
+        android:fontFamily="sans-serif"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:hint="Tên đăng nhập của bạn"
+        android:textColor="@color/purple_200"
+        android:textColorHint="@color/purple_200"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="360dp"
+
+        android:fontFamily="sans-serif"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:hint="Mật khẩu của bạn"
+        android:textColor="@color/purple_200"
+        android:textColorHint="@color/purple_200"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="472dp"
+
+        android:fontFamily="sans-serif"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:hint="Số điện thoại hoặc email bạn đăng ký"
+        android:textColor="@color/purple_200"
+        android:textColorHint="@color/purple_200"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/custombutton2"
+        android:gravity="center"
+        android:hint="quay lại"
+        android:text="quay lại"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="65dp"
+        android:background="@drawable/custombutton2"
+        android:gravity="center"
+        android:hint="thoát"
+        android:text="thoát"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
